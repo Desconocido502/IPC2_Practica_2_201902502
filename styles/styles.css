@@ -7,6 +7,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 50000;
+    background: url('https://i.pinimg.com/originals/59/14/90/59149087934f187572ed18fa050b5274.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+
 body{
     background: lightblue;
     display: flex;
